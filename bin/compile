@@ -22,12 +22,6 @@ fi
 
 make
 echo "-----> Compilation done"
-mkdir /home/vcap/app/sample
-cp SampleServer /home/vcap/app/sample
-echo "--"
-ls /home/vcap/app/sample
-echo "--"
-ls /home/vcap/app
 echo "-----> Installing"
-#make install
-exit 0;
+make install
+ls /home/vcap/app
