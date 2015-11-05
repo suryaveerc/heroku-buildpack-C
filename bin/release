@@ -8,7 +8,7 @@ PATH: /app/bin:/usr/local/bin:/usr/bin:/bin
 EOF
 
 echo "--- {}"
-
+ls /home/vcap/app
 cd /home
 echo pwd
 ./SampleServer
