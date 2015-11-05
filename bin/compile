@@ -30,3 +30,4 @@ echo "--"
 ls /home/vcap/app
 echo "-----> Installing"
 #make install
+exit 0;
