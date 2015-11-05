@@ -24,5 +24,9 @@ make
 echo "-----> Compilation done"
 mkdir /home/vcap/app/sample
 cp SampleServer /home/vcap/app/sample
+echo "--"
+ls /home/vcap/app/sample
+echo "--"
+ls /home/vcap/app
 echo "-----> Installing"
 #make install
