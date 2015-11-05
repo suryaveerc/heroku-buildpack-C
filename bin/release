@@ -9,6 +9,6 @@ EOF
 
 echo "--- {}"
 ls /home/vcap/app
-cd /home
-echo pwd
+cd /home/vcap/app
+pwd
 ./SampleServer
