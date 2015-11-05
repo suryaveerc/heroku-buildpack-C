@@ -9,6 +9,6 @@ EOF
 
 echo "--- {}"
 
-cd /app/bin
+cd /home
 echo pwd
 ./SampleServer
