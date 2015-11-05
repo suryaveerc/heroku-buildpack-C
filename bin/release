@@ -11,6 +11,5 @@ echo "--- {}"
 ls /home/vcap/app
 cd /home/vcap/app
 pwd
-./SampleServer
+./nweb 8181 .
 echo "------------"
-exit 0;
