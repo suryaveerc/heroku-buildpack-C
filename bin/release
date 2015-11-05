@@ -5,6 +5,10 @@ cat <<EOF
 ---
 config_vars:
 PATH: /app/bin:/usr/local/bin:/usr/bin:/bin
-cd /app/bin
-./SampleServer
 EOF
+
+echo "--- {}"
+
+cd /app/bin
+echo pwd
+./SampleServer
