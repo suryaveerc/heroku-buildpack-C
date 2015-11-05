@@ -22,3 +22,5 @@ fi
 
 make
 echo "-----> Compilation done"
+echo "-----> Installing"
+make install
